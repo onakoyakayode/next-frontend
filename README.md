@@ -12,3 +12,11 @@ different screen sizes in tailwindcss
 7. 4xl
 8. 5xl
 9. 7xl
+
+State Management in React
+
+1. Local State --> useState
+2. Global State --> useContext, useReducer, Recoil, Redux, Zustand, Mobx
+
+3. Object {}
+4. Array []
