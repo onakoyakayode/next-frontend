@@ -1,11 +1,11 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import Products from "./Products";
+import Product from "./Product";
 
 const NewArrivals = () => {
   return (
     <div className="py-25 px-50">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mb-10">
         <div>
           <h1 className="text-4xl font-semibold mb-3">New Arrivals</h1>
           <p>
@@ -17,7 +17,7 @@ const NewArrivals = () => {
           See what's new
         </button>
       </div>
-      <Products />
+      <Product />
     </div>
   );
 };

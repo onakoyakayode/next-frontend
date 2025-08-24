@@ -20,3 +20,11 @@ State Management in React
 
 3. Object {}
 4. Array []
+
+to check if sunday === true?
+
+if (sunday) is the same as (sunday === true){
+console.log(Yes, it is!)
+}
+
+if (!sunday) is the same as (sunday !== true)
