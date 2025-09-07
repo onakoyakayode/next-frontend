@@ -4,10 +4,12 @@ import Product from "./Product";
 
 const NewArrivals = () => {
   return (
-    <div className="py-25 px-50">
+    <div className="md:py-20 xl:py-25 md:px-30 xl:px-50">
       <div className="flex justify-between items-center mb-10">
         <div>
-          <h1 className="text-4xl font-semibold mb-3">New Arrivals</h1>
+          <h1 className="text-4xl font-semibold mb-3 animate-pulse">
+            New Arrivals
+          </h1>
           <p>
             Be the first to wear this season’s latest looks. Handpicked and
             freshly styled.

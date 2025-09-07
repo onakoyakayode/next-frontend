@@ -28,7 +28,7 @@ const Product = () => {
 
   return (
     <div className="min-h-screen">
-      <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 lg:gap-5 py-5">
+      <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 lg:gap-5 xl:gap-8 py-5">
         {loading ? (
           <h1 className="text-3xl text-green-800">loading....</h1>
         ) : error ? (

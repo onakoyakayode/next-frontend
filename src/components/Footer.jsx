@@ -111,10 +111,6 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="col-span-1 w-full">
-        {" "}
-        <h3>My Profile</h3>
-      </div>
     </div>
   );
 };

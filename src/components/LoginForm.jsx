@@ -79,7 +79,7 @@ const LoginForm = () => {
           </div>
           <button
             onClick={handleSubmit}
-            className="bg-purple-500 text-white font-medium h-10 cursor-pointer hover:opacity-80 rounded mt-3"
+            className="bg-blue-500 text-white font-medium h-10 cursor-pointer hover:opacity-80 rounded mt-3"
           >
             Login
           </button>
